@@ -33,10 +33,12 @@ set laststatus=2		" reveals second status line
 set statusline=%F\ {%Y}[%l,%v][%p%%] " name {type}[row,col][%]
 
 " personalisation
-colorscheme monokai		"make the colours like textmate
 hi MatchParen cterm=bold ctermbg=none ctermfg=magenta
 if has('gui_running')	"if running in gui: do..
   set guifont=Ubuntu\ Mono\ 12	"change font to Ubuntu Mono (12pt)
+  colorscheme monokai		"make the colours like textmate
+else
+  colorscheme desert        "make the colours pretty even if not in gui
 endif
 
 " custom syntax rules
