@@ -17,6 +17,7 @@ set sidescrolloff=4		" keep 4 lines l/r when scrolling
 set history=100			" 100 items in history
 set noerrorbells		" do not make a noise on error
 set shell=zsh			" set zsh as shell
+set backspace=2         " make backspace compatible across Gvim and Vim
 
 " filetype
 filetype on				" turn on filetype detection
