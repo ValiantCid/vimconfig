@@ -45,6 +45,7 @@ endif
 autocmd BufEnter,BufWrite *.php :set syn=wordpress "add wordpress syntax and DON'T remove php syntax
 autocmd BufEnter,BufWrite *.md :set syn=mkd filetype=mkd "add markdown and remove Modula2 (default) syntax
 autocmd BufEnter,BufWrite *.py :set colorcolumn=72 "add marker at line 72 to keep with PEP8
+autocmd BufEnter,BufWrite *.c :colorscheme desert "set colorscheme to desert for c files, monokai doesnt handle function definitions properly
 
 " Emmet configuration (including tab expansion after expression)
 let g:user_emmet_settings = {
